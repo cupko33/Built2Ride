@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Built2Ride</title>
+    <link rel="icon" type="image/x-icon" href="../favicon/fav32.png">
+</head>
+<body>
+    <div>
+        <a href="../index.html"><img src="../logo/logo.png" alt="logo" width="200" height="50"></a>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About Us</a></li>
+            <li><a href="../pages/shop.html">Shop</a></li>
+            <li><a href="../pages/gallery.html">Gallery</a></li>
+            <li><a href="../pages/news.html">News</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Shop</h2>
+        <h3>Explore our collection of bicycle parts and accessories.</h3>
+        <p>Welcome to the 'Built2Ride' shop! Here you can find lots of offers on cycling and outdoor. Whether it's a complete bike, components, accessories, clothing, shoes or electronics - click through and secure your bargains while stocks last!</p><br>
+
+        <table border="1">
+            <caption>Height of the Bicycle Rider compared to Bicycle Frame Size</caption>
+            <thead>
+                <tr>
+                    <th>Rider Height (cm)</th>
+                    <th>Frame Size</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>below 165</td>
+                    <td>XS</td>
+                </tr>
+                <tr>
+                    <td>165 - 170</td>
+                    <td>S</td>
+                </tr>
+                <tr>
+                    <td>170 - 180</td>
+                    <td>M</td>
+                </tr>
+                <tr>
+                    <td>180 - 185</td>
+                    <td>L</td>
+                </tr>
+                <tr>
+                    <td>185 - 190</td>
+                    <td>XL</td>
+                </tr>
+                <tr>
+                    <td>above 190</td>
+                    <td>XXL</td>
+                </tr>
+            </tbody>
+        </table><br>
+
+        <form>
+            <h3>You are looking for something specific?</h3>
+            <label for="search">Search:</label>
+            <input type="text" id="search" name="search" placeholder="Search by Product Name">
+            <button type="submit">Search</button>
+        </form><br>
+    
+        <div>
+            <h3>This is something we recommend!</h3>
+            <div>
+                <h4>Shimano Ultegra PD-R8000 SPD-SL Pedal - black</h4>
+                <img src="../images/pedal.jpg" alt="shimano_pedal" width="300" height="200">
+                <p>To match the stiffness of the FC-R8000 Hollowtech II crankset, there is no better option than the lightweight PD-R8000 pedal. Its carbon-composite body and extra-wide platform will give you the transfer of power you need.</p>
+                <p>Price: $95.00</p>
+                <button>Add to Cart</button>
+            </div><br>
+
+            <div>
+                <h4>Selle Italia SLR Boost TM Saddle - Superflow - black</h4>
+                <img src="../images/selle.jpg" alt="selle-italia-saddle" width="300" height="250">
+                <p>The SLR Boost brings the Selle Italia values to the short saddle sector. The SLR Boost complements and strengthens the SLR family. A lightweight, compact and comfortable saddle with a new top front. The SLR Boost has an even more accentuated front, which allows you to further increase comfort during the pressure and make the most of the features of the saddle.</p>
+                <p>Price: $120.00</p>
+                <button>Add to Cart</button>
+            </div><br>
+
+            <div>
+                <h4>Shimano Deore XT RT-MT800 Ice-Tech Freeza Disc Centerlock</h4>
+                <img src="../images/disc.jpg" alt="deore-disc" width="300" height="300">
+                <p>The Shimano Deore XT RT-MT800 brake disc uses the successful Ice-Technologies Freeza design to decrease the temperatures while braking what results in a consistent braking performance even in the most demanding conditions and increases the brake pad's lifetime as well. The basis of the construction is the disc's so called sandwich structure (stainless steel - aluminium - stainless steel) which not only improves braking power and reliability, but also effectively dissipates the heat via the integrated cooling fins.</p>
+                <p>Price: $34.00</p>
+                <button>Add to Cart</button>
+            </div><br>
+
+            <div>
+                <h4>Specialized S-Works Prevail 3 Road Helmet - White/Black</h4>
+                <img src="../images/helmet.jpg" alt="helmet" width="300" height="250">
+                <p>Combining maximum comfort with the benefits of excellent temperature regulation, the third generation of the Prevail is the ultimate all-round helmet that excels in hot conditions, strenuous climbs and mountain stages. To achieve this, the engineers have removed the airflow-blocking foam bridges in the middle of the helmet, making the Prevail 3 the Specialized helmet with the largest ventilation area (24.5 % larger than the area of the Prevail II Vent).</p>
+                <p>Price: $195.00</p>
+                <button>Add to Cart</button>
+            </div><br>
+
+            <div class="item">
+                <h4>Oakley Sutro Glasses - Matte Black/Prizm Road - 0OO9406-0837</h4>
+                <img src="../images/oakley.jpg" alt="glasses-oakley" width="300" height="300">
+                <p>Oakley Sutro revolutionizes the look of traditional sports eyewear. Inspired by the everyday lives of urban cyclists, the close-fitting lens creates a striking and versatile wearable look and protects in wind and weather. Prizm™ lens technology provides enhanced vision to keep active athletes fully motivated and safe throughout the day.</p>
+                <p>Price: $100.80</p>
+                <button>Add to Cart</button>
+            </div>
+        </div><br>
+
+        <div>
+            <h2><img src="../icons/review.png" alt="review-icon" width="50" height="50"> Leave a Review</h2>
+            <p>Please help us improve our business and add your review about products you find in our shop. Thanks!</p>
+
+            <form id="reviewForm">
+                <label for="productName">Product Name:</label><br>
+                <input type="text" id="productName" name="productName" placeholder="Enter Product Name"required><br><br>
+
+                <label for="review">Your Review:</label><br>
+                <textarea id="review" name="review" placeholder="Type Your Review" cols="30" rows="10" maxlength="450" required></textarea><br><br>
+
+                <label for="rating">Rating:</label><br>
+                <select id="rating" name="rating" required>
+                    <option value="">Select</option>
+                    <option value="1">1 Star</option>
+                    <option value="2">2 Stars</option>
+                    <option value="3">3 Stars</option>
+                    <option value="4">4 Stars</option>
+                    <option value="5">5 Stars</option>
+                </select><br><br>
+
+                <input type="submit" value="Submit Review">
+            </form>
+        </div><br>
+
+        <div>
+            <h2><img src="../icons/message.png" alt="contact-icon" width="40" height="40">Contact Us</h2>
+            <p>If you have any questions or need assistance, feel free to <a href="../pages/contact.html">contact us</a>.</p>
+        </div>
+    </section><br><br>
+
+    <footer>
+        <p>&copy; 2024 Built2Ride. All rights reserved.</p>
+        <h4>Follow us on:</h4>
+        <ul>
+            <li><a href="https://www.facebook.com/"><img src="../icons/facebook.png" alt="facebook-icon" width="50" height="50"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="../icons/instagram.png" alt="instagram-icon" width="50" height="50"></a></li>
+            <li><a href="https://www.twitter.com/"><img src="../icons/twitter.png" alt="twitter-icon" width="50" height="50"></a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
